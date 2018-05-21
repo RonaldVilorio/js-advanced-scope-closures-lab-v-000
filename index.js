@@ -2,8 +2,8 @@
 function produceDrivingRange(blockRange){
   return function(start,end){
     debugger
-    start = start.slice(0,2)
-    end = end.slice(0,2)
+    start = parseInt(start.slice(0,2))
+    end = parseInt(end.slice(0,2))
     console.log(start)
 
 
