@@ -6,11 +6,10 @@ function produceDrivingRange(blockRange){
     end = parseInt(end.slice(0,2))
 
     if (blockRange < (end - start)){
-      // debugger
        console.log(`${(end - start) - blockRange} blocks out of range`)
 
     }else{
-      console.log(`within range by ${(end - start)}`)
+       console.log(`within range by ${(end - start)}`)
     }
 
 
