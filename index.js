@@ -6,9 +6,9 @@
     end = parseInt(end.slice(0,2))
 
     if (blockRange < (end - start)){
-       return console.log(`${(end - start) - blockRange} blocks out of range`)
+       return `${(end - start) - blockRange} blocks out of range`
     }else{
-       return console.log(`within range by ${(end - start)}`)
+       return `within range by ${(end - start)}`
     }
   }
 }
