@@ -1,6 +1,5 @@
 
-function produceDrivingRange(blockRange){
-  blockRange
-  debugger
+function produceDrivingRange(){
+
 
 }
