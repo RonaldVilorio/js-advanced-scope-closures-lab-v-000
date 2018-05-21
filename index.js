@@ -12,6 +12,7 @@
     }
   }
 }
-function produceTipCalculator(){
+function produceTipCalculator(tip_percent){
   
+
 }
