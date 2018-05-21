@@ -7,10 +7,10 @@ function produceDrivingRange(blockRange){
 
     if (blockRange < (end - start)){
       // debugger
-      return console.log(`${(end - start) - blockRange} blocks out of range`)
-      
+       console.log(`${(end - start) - blockRange} blocks out of range`)
+
     }else{
-      return console.log(`within range by ${(end - start)}`)
+      console.log(`within range by ${(end - start)}`)
     }
 
 
