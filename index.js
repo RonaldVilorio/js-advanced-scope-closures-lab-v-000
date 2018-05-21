@@ -10,9 +10,5 @@ function produceDrivingRange(blockRange){
     }else{
        console.log(`within range by ${(end - start)}`)
     }
-
-
-
   }
-
 }
